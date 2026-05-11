@@ -590,7 +590,7 @@ function DashboardPage({ onNav }) {
     { label:"Math Olympiad Q1", count:560, type:"Olympiad", color:"#2563EB" },
     { label:"State Olympiad...", count:480, type:"Olympiad", color:"#2563EB" },
   ];
-  const maxCount = Math.max(...trendData.map(d=>d.count));
+  // const maxCount = Math.max(...trendData.map(d=>d.count));
   const yTicks = [0,200,400,600,800];
 
   return (
