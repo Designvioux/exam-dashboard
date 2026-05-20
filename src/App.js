@@ -871,7 +871,7 @@ function DashboardPage({ onNav, schools, exams }) {
     { label: "State Olympiad", count: 480, color: "#2563EB" },
   ];
   const chartData = chartFilter === "Yearly" ? yearlyData : allTimeData;
-  const maxCount = Math.max(...chartData.map(d => d.count));
+  // const maxCount = Math.max(...chartData.map(d => d.count));
 
   return (
     <>
