@@ -1589,10 +1589,10 @@ function ExamsPage({exams,setExams,teachers,centers,toast}) {
   const [stf,setStf]=useState("All");
   const [customCats,setCustomCats]=useState([]);
   const [customTypes,setCustomTypes]=useState([]);
-  const [addCatOpen,setAddCatOpen]=useState(false);
-  const [addTypeOpen,setAddTypeOpen]=useState(false);
-  const [newCat,setNewCat]=useState("");
-  const [newType,setNewType]=useState("");
+  // const [addCatOpen,setAddCatOpen]=useState(false);
+  // const [addTypeOpen,setAddTypeOpen]=useState(false);
+  // const [newCat,setNewCat]=useState("");
+  // const [newType,setNewType]=useState("");
 
   const allCats=[...EXAM_CATS,...customCats];
   const allTypes=[...EXAM_TYPES,...customTypes];
